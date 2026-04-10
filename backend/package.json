@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "jest --watchAll  --detectOpenHandles --verbose --coverage ",
-    "start": "nodemon server.js",
+    "start": "nodemon index.js",
     "check": "prettier --check .",
     "format": "prettier --write .",
     "vercel-build": "echo yay"
